@@ -2,18 +2,51 @@ body {
   font-family: "Montserrat";
   text-align: center;
 }
+
+h1 {
+  font-size: 6rem;
+  font-family: "Just Me Again Down Here", cursive;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Baloo Chettan", cursive;
+  color: #f16529;
+  padding: 1%;
+}
+
+h3 {
+  font-family: "Baloo Chettan", cursive;
+  color: #29a9df;
+}
+
+p {
+  font-family: "Baloo Chettan", cursive;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
 /* Navigatioan Bar */
-.navbar-brand,
-.navbar-nav {
+nav{
+  background-color:  #24dddd;
+  
+}
+.navbar-brand, .navbar-nav {
   font-family: "Baloo Chettan", cursive;
   font-size: 3rem;
+  
 }
+
 .navbar-nav {
   font-size: 1.5rem;
 }
+
 .nav-item {
   padding: 0 18px;
 }
+
+
+/* <!-- Header --> */
 .container-fluid {
   background-color: #24dddd;
   padding: 5% 15%;
@@ -24,29 +57,10 @@ body {
 .karslio {
   padding-top: 3%;
 }
-h1 {
-  font-size: 6rem;
-  font-family: "Just Me Again Down Here", cursive;
-}
 
-h2 {
-  font-size: 3rem;
-  font-family: "Baloo Chettan", cursive;
-  color: #F16529;
-  padding: 1%;
-}
-h3 {
-  font-family: "Baloo Chettan", cursive;
-  text-align: left;
-  color: #29A9DF;
-}
-.row {
-  padding: 1% 17%;
-}
-p {
-  font-family: "Baloo Chettan", cursive;
-  text-align: left;
-  font-size: 1.3rem;
+/* <!--About --> */
+#page-content {
+  padding: 1% 15%;
 }
 
 #about-text {
@@ -54,34 +68,25 @@ p {
   text-align: center;
 }
 
-.skills-text{
+.row {
+  margin-bottom: 5%;
+}
+.skills-img{
+  padding:5% 0;
+}
+.skills-text {
   padding-top: 2.5%;
 }
-
-hr{
-  margin: 0 17%;
-  border:none;
+a
+hr {
+  margin: 0 0 2%;
+  border: none;
   border-bottom: 5px dotted;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  height: 40px;
-  width: 40px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  border: 1px solid black;
-}
-.slide-img{
-  height: 200px;
-  width: 200px;
-  margin-left: 20%
-}
-
-.row-footer{
+.row-footer {
   padding: 0 0;
   font-family: "Baloo Chettan", cursive;
   text-align: left;
   font-size: 1.3rem;
-
 }
-
